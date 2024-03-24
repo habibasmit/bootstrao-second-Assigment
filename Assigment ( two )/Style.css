@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *** content*** */
+#main h1{
+  font-size: 4rem; 
+  text-align: left ; 
+  padding: 1rem 20rem;
+}
+@media (max-width: 768px) {
+ 
+  #text-content h1{
+    font-size: 1.9rem;
+    padding: 0 0.5rem; 
+  }
+  .fs-4 {
+    font-size: 1.5rem; 
+  }
+  .d-grid{
+    padding: 0 1.9rem;
+    font-size: 1rem;
+  }
+}
+
+.map {
+    background-image: url(./images/square-pattern.jpg);
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 3px black;
+    max-width: 50%; 
+} 
+@media only screen and (max-width: 600px) {
+    #main {
+     display: inline;
+     height:20px;
+    }
+  }
